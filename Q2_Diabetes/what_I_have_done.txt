@@ -1,0 +1,8 @@
+Steps performed in Diabetes analysis (Q2):
+
+1. Mounted Google Drive and created folders (data, figures, outputs, reports).
+2. Uploaded diabetes.csv manually and saved a copy.
+3. Set random seed (seed=42) and drew a random sample of n=25. Computed sample mean and max for Glucose and compared to population statistics; saved KDE and boxplots.
+4. Computed 98th percentile of BMI for sample and population; saved comparison plot.
+5. Performed bootstrap sampling with R=500, m=150 (replace=True) on BloodPressure. Collected bootstrap distributions for mean, std, and 98th percentile. Saved bootstrap CSV and plots.
+6. Saved summary comparisons to reports/bootstrap_summary_comparison.csv and written findings.md.

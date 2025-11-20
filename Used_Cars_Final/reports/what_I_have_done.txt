@@ -1,0 +1,9 @@
+Steps performed in Used Cars Analysis (Q1):
+1. Mounted Google Drive and created folders.
+2. Uploaded train.csv into data folder.
+3. Handled missing values (median/mode).
+4. Cleaned numeric columns (removed units).
+5. One-hot encoded categorical columns.
+6. Created Car_Age feature.
+7. Performed select, filter, rename, mutate, arrange, groupby.
+8. Saved findings.md and what_I_have_done.txt in reports folder.
